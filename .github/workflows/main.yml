@@ -47,7 +47,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v1.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{D80F877206AE49A19DAB72CDAC375CBB}}
+          SONAR_TOKEN: D80F877206AE49A19DAB72CDAC375CBB
         with:
           # Additional arguments to the sonarcloud scanner
           args: # optional
